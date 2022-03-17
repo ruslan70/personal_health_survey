@@ -8,7 +8,7 @@
     <body>
             
               
-              <?php include 'inc/menü.php';?>
+              <?php include 'inc/menu.php';?>
                 <div class="container col-12 text-center pt-3">
                     <h3>Sehr geehrter Teilnehmer,<br>Vielen Dank, dass Sie sich die Zeit nehmen,
                     <br> den folgenden Fragebogen auszufüllen.<h/3> 

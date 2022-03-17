@@ -12,7 +12,7 @@
                 session_start();
                 session_destroy();
                 
-                include 'inc/menü.php';
+                include 'inc/menu.php';
             ?>
              
               

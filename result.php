@@ -8,7 +8,7 @@
     <body>
             
               
-            <?php include 'inc/menü.php';?>
+            <?php include 'inc/menu.php';?>
             <?php include 'inc/data-collector.php';?>
                 
                 
