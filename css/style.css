@@ -12,3 +12,13 @@
 .spacer {
     min-height: 20px;
 }
+
+.range-lables {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(235, 213, 14);
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: gold;
+}

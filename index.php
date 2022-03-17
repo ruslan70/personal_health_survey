@@ -56,17 +56,26 @@
                     <h5>Schätze deine Gesundheit mit dem Slider ein.</h5>
                     <div class="row flex-nowrap">
                         <div class="col text-danger">
-                        <p>1</p>
+                        <p></p>
                         </div>
                         <div class="col text-warning" style="text-align: center;">
-                        <p>3</p>
+                        <p></p>
                         </div>
                         <div class="col text-success" style="text-align: right;">
-                        <p>5</p>
+                        <p></p>
                     </div>
                     </div>
                     <label for="range-slider-changed" class="form-label">Auswählen:</label>
                     <input type="range" name="range-slider" class="form-range" min="0" max="4" step="1" id="range-slider" onchange="sliderChanged();">
+                    <div class="range-lables">
+                    <div class="range-marker">1</div>
+                    <div class="range-marker">2</div>
+                    <div class="range-marker">3</div>
+                    <div class="range-marker">4</div>
+                    <div class="range-marker">5</div>
+                        
+                    
+                    </div>
                     <input type="hidden" name="lastPageID" value="index">
                     <input type="hidden" name="range-slider-changed" id="range-slider-changed">
                     <p id="validation-warning" class="warning"></p>
