@@ -49,44 +49,46 @@
                     <h3>Bitte antworten Sie auf die folgende Frage und klicken Sie auf "Weiter" um fortzufahren.<h/3>
                 
                 </div>
+                    <p class="spacer"></p>
                 
-                
-                    <h4>Wie gesund bist du körperlich?<br>Wobei: 1- Überhaupt nicht gesund...<br>
-                    3- Mittelmässiggesund...<br>5- Extrem gesund bedeutet</h4>
+                    <h4>Wie gesund bist du körperlich?<br>Wobei: 1 - Überhaupt nicht gesund...<br>
+                      3 - Mittelmässig gesund...<br>  5 - Extrem gesund bedeutet</h4>
+                    <p class="spacer"></p>
+
                     <h5>Schätze deine Gesundheit mit dem Slider ein.</h5>
-                    <div class="row flex-nowrap">
-                        <div class="col text-danger">
-                        <p></p>
-                        </div>
-                        <div class="col text-warning" style="text-align: center;">
-                        <p></p>
-                        </div>
-                        <div class="col text-success" style="text-align: right;">
-                        <p></p>
-                    </div>
-                    </div>
-                    <label for="range-slider-changed" class="form-label">Auswählen:</label>
-                    <input type="range" name="range-slider" class="form-range" min="0" max="4" step="1" id="range-slider" onchange="sliderChanged();">
-                    <div class="range-lables">
-                    <div class="range-marker">1</div>
-                    <div class="range-marker">2</div>
-                    <div class="range-marker">3</div>
-                    <div class="range-marker">4</div>
-                    <div class="range-marker">5</div>
-                        
+                    <p class="spacer"></p>
                     
-                    </div>
+            
+                 
+              
+ 
+                    <label for="range-slider-changed" class="form-label">Auswählen:</label>
+                    <input type="range" name="range-slider" class="form-range" min="1" max="5" step="1" id="range-slider" onchange="sliderChanged();">
                     <input type="hidden" name="lastPageID" value="index">
                     <input type="hidden" name="range-slider-changed" id="range-slider-changed">
                     <p id="validation-warning" class="warning"></p>
-                                       
-                    <p class="spacer"></p>
                     
+                    <div class="range-lables">
+                        <div class="range-marker">1</div>
+                        <div class="range-marker">2</div>
+                        <div class="range-marker">3</div>
+                        <div class="range-marker">4</div>
+                        <div class="range-marker">5</div>
+                    </div>    
+                    
+                    <p class="spacer"></p>
+                                       
+                    
+                    <input type="hidden" name="lastPageID" value="question-5">
+                    <p id="validation-warning" class="warning"></p>
                     <input type="reset" value="Zurücksetzen"><br><br>
                     <button type="submit" class="btn btn-warning">Weiter</button> 
                     <p class="spacer"></p>
+            </div>
+                    
+                    
 
-            </div>          
+                     
                  
         </form>                     
                                

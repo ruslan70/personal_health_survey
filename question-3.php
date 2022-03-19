@@ -31,10 +31,16 @@
                 <div class="container pt-3 col-12">
 
                     <label for="range-slider-changed" class="form-label">Auswählen</label>
-                    <input type="range" name="range-slider" class="form-range" min="0" max="4" step="1" id="range-slider" onchange="sliderChanged();">
+                    <input type="range" name="range-slider" class="form-range" min="1" max="5" step="1" id="range-slider" onchange="sliderChanged();">
                     <input type="hidden" name="lastPageID" value="index">
                     <input type="hidden" name="range-slider-changed" id="range-slider-changed">
-                
+                    <div class="range-lables">
+                        <div class="range-marker">1</div>
+                        <div class="range-marker">2</div>
+                        <div class="range-marker">3</div>
+                        <div class="range-marker">4</div>
+                        <div class="range-marker">5</div>
+                    </div> 
                                        
                     <p class="spacer"></p>                    
                 </div>
