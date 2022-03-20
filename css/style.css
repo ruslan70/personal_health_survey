@@ -3,14 +3,14 @@
 }
 
 .warning {
-    color: red;
-    min-height: 20px;
+    color: rgb(255, 0, 0);
+    min-height: 30px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
 .spacer {
-    min-height: 20px;
+    min-height: 10px;
 }
 
 .range-lables {
@@ -21,4 +21,20 @@
 
 .form-range::-webkit-slider-thumb {
     background-color: rgb(245, 114, 27);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-check {
+
+    color: rgb(230, 180, 16);
+}
+
+.radio {
+    color: darkred;
+}
+
+.form-label {
+    color: rgb(230, 180, 16);
 }

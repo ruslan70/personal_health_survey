@@ -15,14 +15,16 @@
             
         <form action="question-6.php" method="post" onsubmit="return validateQuestion('range-slider');">       
             <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container col-12">
+                <div class="container pt-3 col-12">
                     <h5>Frage 5</h5>
                     <h3>Hast du das Gefühl, zu wenig, genügend
                         oder viel zu viel zusätzliche körperliche
                             Aktivitäten zu betreiben?<br>
-                            Wobei: 1- Viel zu wenig /<br>
-                            3- Gerade richtig<br>
-                            5- Viel zu viel  bedeutet</h3>
+                            Wobei: 1 - Viel zu wenig...<br>
+                            3 - Gerade richtig...<br>
+                            5 - Viel zu viel  bedeutet</h3>
+
+                            <p class="spacer"></p> 
                 </div>
 
             </div>
@@ -31,7 +33,7 @@
 
 
             <div class="container-fluid bg-primary text-center text-warning">
-                <div class="container pt-3 col-12">
+                <div class="container pt-5 col-12">
                     <label for="range-slider-changed" class="form-label">Auswählen</label>
                     <input type="range" name="range-slider" class="form-range" min="1" max="5" step="1" id="range-slider" onchange="sliderChanged();">
                     <input type="hidden" name="lastPageID" value="index">
@@ -57,8 +59,8 @@
             </div>
                 
         </form>
-
+        <?php include 'inc/footer.php';?> 
 
     </body>                     
-        <?php include 'inc/footer.php';?>  
+        
 </html> 

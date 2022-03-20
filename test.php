@@ -73,8 +73,11 @@
                  
         </form>                     
                                
-                      
-    
+        <div class="container-fluid p-5 my-8 bg-primary text-white">
+          <h1>My First Bootstrap Page</h1>
+          <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+        </div>                  
+            
         
     </body>                     
         <?php include 'inc/footer.php';?>  

@@ -15,9 +15,11 @@
             
         <form action="question-3.php" method="post" onsubmit="return validateQuestion('single-choice-0', 'single-choice');">       
             <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container col-12">
+                <div class="container pt-3 col-12">
                     <h5>Frage 2</h5>
                     <h3>Nimmst du Nahrungsergänzungsmittel?</h3>
+
+                    <p class="spacer"></p>
                 </div>
 
             </div>
@@ -26,7 +28,7 @@
 
 
             <div class="container-fluid bg-primary text-center text-warning">
-                <div class="container pt-3 col-12">
+                <div class="container pt-5 col-12">
 
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="single-choice" id="single-choice-1" value="1">
@@ -51,8 +53,8 @@
             </div>
                 
         </form>
-
+        <?php include 'inc/footer.php';?> 
 
     </body>                     
-        <?php include 'inc/footer.php';?>  
+         
 </html>             

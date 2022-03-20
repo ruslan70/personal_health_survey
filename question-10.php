@@ -15,11 +15,13 @@
             
         <form action="result.php" method="post" onsubmit="return validateQuestion('number-text');">       
             <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container col-12">
+                <div class="container pt-3 col-12">
                     <h5>Frage 10</h5>
                     <h3>An einem typischen Tag:<br> Wie viele deiner
                         Malzeiten kommen aus der Mikrowelle
                         oder sind schon fertig zubereitet?</h3>
+
+                        <p class="spacer"></p>
                 </div>
 
             </div>
@@ -42,8 +44,8 @@
             </div>
                 
         </form>
-
+        <?php include 'inc/footer.php';?>  
 
     </body>                     
-        <?php include 'inc/footer.php';?>  
+        
 </html> 

@@ -15,10 +15,11 @@
             
         <form action="question-9.php" method="post" onsubmit="return validateQuestion('number-text');">       
             <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container col-12">
+                <div class="container pt-3 col-12">
                     <h5>Frage 8</h5>
                     <h3>An einem typischen Tag:<br> Wie viele deiner
                         Malzeiten oder Snacks enthalten Gemüse?</h3>
+                        <p class="spacer"></p>
                         
                 </div>
 
@@ -42,8 +43,8 @@
             </div>
                 
         </form>
-
+        <?php include 'inc/footer.php';?> 
 
     </body>                     
-        <?php include 'inc/footer.php';?>  
+         
 </html> 

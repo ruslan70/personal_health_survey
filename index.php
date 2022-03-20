@@ -45,7 +45,7 @@
 
             <div class="container-fluid bg-primary text-center text-white">
 
-                <div class="container pt-3 col-12">
+                <div class="container pt-5 col-12">
                     <h3>Bitte antworten Sie auf die folgende Frage und klicken Sie auf "Weiter" um fortzufahren.<h/3>
                 
                 </div>
@@ -56,11 +56,11 @@
                     <p class="spacer"></p>
 
                     <h5>Schätze deine Gesundheit mit dem Slider ein.</h5>
-                    <p class="spacer"></p>
+                   
                     
             
                  
-              
+                    <p class="spacer"></p>
  
                     <label for="range-slider-changed" class="form-label">Auswählen:</label>
                     <input type="range" name="range-slider" class="form-range" min="1" max="5" step="1" id="range-slider" onchange="sliderChanged();">
@@ -92,11 +92,11 @@
                  
         </form>                     
                                
-                      
+      <?php include 'inc/footer.php';?>                 
     
         
     </body>                     
-        <?php include 'inc/footer.php';?>  
+         
 </html>                    
 
                 

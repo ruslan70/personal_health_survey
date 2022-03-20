@@ -46,7 +46,7 @@ function validateQuestion(inputID, radioName) {
         // "Minimal": Prüfe ob ein minimaler Wert gesetzt wurde.
         if (!value) {
             // Früher mit alert("Bla bla ...");
-            setWarning("Bitte gib einen Wert ein.");
+            setWarning("Bitte gib einen Wert ein!");
             return false;
         }
     }

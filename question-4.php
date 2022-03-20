@@ -13,11 +13,13 @@
                 
                 
             
-        <form action="question-5.php" method="post" onsubmit="return validateQuestion('');">       
+        <form action="question-5.php" method="post" onsubmit="return validateQuestion('saveSelection(this)');">       
             <div class="container-fluid  bg-warning text-center text-dark">
-                <div class="container col-12">
+                <div class="container pt-3 col-12">
                     <h5>Frage 4</h5>
                     <h3>Welche zusätzliche körperliche Aktivität betreibst du am meisten?</h3>
+
+                    <p class="spacer"></p>
 
                 </div>
 
@@ -29,24 +31,24 @@
             <div class="container-fluid bg-primary text-center text-warning">
                 <div class="container pt-3 col-12">
 
-                        <input type="checkbox" value="Keine zusätzliche körperliche Aktivität" name="Act1" onChange="saveSelection(this)"><p>Keine zusätzliche körperliche Aktivität</p>
+                        <input type="checkbox" id="act1" name="act1" value="Keine zusätzliche körperliche Aktivität" onChange="saveSelection(this)"><p>Keine zusätzliche körperliche Aktivität</p>
                        
-                        <input type="checkbox" value="Gewichte heben" name="Act2" onChange="saveSelection(this)"> Gewichte heben
-                        <input type="checkbox" value="Kampfsport" name="Act3" onChange="saveSelection(this)"> Kampfsport 
-                        <input type="checkbox" value="Wandern" name="Act4" onChange="saveSelection(this)"> Wandern 
-                        <input type="checkbox" value="Joggen" name="Act5" onChange="saveSelection(this)"> Joggen<br>
-                        <input type="checkbox" value="Rennen" name="Act6" onChange="saveSelection(this)"> Rennen
-                        <input type="checkbox" value="Schwimmen" name="Act7" onChange="saveSelection(this)"> Schwimmen
-                        <input type="checkbox" value="Tanzen" name="Act8" onChange="saveSelection(this)"> Tanzen
-                        <input type="checkbox" value="Pilates " name="Act9" onChange="saveSelection(this)"> Pilates 
-                        <input type="checkbox" value="Team Sport" name="Act10" onChange="saveSelection(this)"> Joggen
-                        <input type="checkbox" value="Aerobics" name="Act11" onChange="saveSelection(this)"> Joggen
-                        <input type="checkbox" value="Spazieren" name="Act12" onChange="saveSelection(this)"> Spazieren
+                        <input type="checkbox" value="Gewichte heben" id="act2" name="act2" onChange="saveSelection(this)"> Gewichte heben
+                        <input type="checkbox" value="Kampfsport" id="act3" name="act3" onChange="saveSelection(this)"> Kampfsport 
+                        <input type="checkbox" value="Wandern" id="act4" name="act4" onChange="saveSelection(this)"> Wandern 
+                        <input type="checkbox" value="Joggen" id="act5" name="act5" onChange="saveSelection(this)"> Joggen<br>
+                        <input type="checkbox" value="Rennen" id="act6" name="act6" onChange="saveSelection(this)"> Rennen
+                        <input type="checkbox" value="Schwimmen" id="act7" name="Act7" onChange="saveSelection(this)"> Schwimmen
+                        <input type="checkbox" value="Tanzen" id="act8" name="act8" onChange="saveSelection(this)"> Tanzen
+                        <input type="checkbox" value="Pilates " id="act9" name="act9" onChange="saveSelection(this)"> Pilates 
+                        <input type="checkbox" value="Team Sport" id="act10" name="act10" onChange="saveSelection(this)"> Joggen
+                        <input type="checkbox" value="Aerobics" id="act11" name="act11" onChange="saveSelection(this)"> Joggen
+                        <input type="checkbox" value="Spazieren" id="act12" name="act12" onChange="saveSelection(this)"> Spazieren
                         <br>
                         Anderes: 
-                        <input type="checkbox" value="Freitext" name="Act9" onChange="saveSelection(this)"> 
+                        <input type="checkbox" value="Freitext" id="act1" name="act13" onChange="saveSelection(this)"> 
                         <br> 
-                        Freitext:<input size="60" name="Freitext" onChange="saveSelection(this)"> 
+                        Andere Aktivitäten:<input size="60" id="freetext" name="Freetext" onChange="saveSelection(this)"> 
                         <hr>                     
 
                 </div>
