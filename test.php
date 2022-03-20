@@ -64,7 +64,9 @@
                         
                         <p>&nbsp;</p>
                         <input type="reset" value="Zurücksetzen"><br><br>
-                        <input type="submit" value="Submit"> 
+                      
+                        <a class="btn btn-warning" href="index.php" role="button">❮ Zurück</a>
+                        <input class="btn btn-warning" type="submit" value="Submit ❯"> 
                     </div>
                 </div>
                 

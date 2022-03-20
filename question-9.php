@@ -3,7 +3,7 @@
     <head>
         
         <?php include "inc/head_styles.php" ?>
-        <title>question-2</title>
+        <title>question-9</title>
     </head>
     <body>
             
@@ -37,7 +37,8 @@
                         <input type="hidden" name="lastPageID" value="question-9">
                         <p id="validation-warning" class="warning"></p>
                         <input type="reset" value="Zurücksetzen"><br><br>
-                        <button type="submit" class="btn btn-warning">Weiter</button> 
+                        <a class="btn btn-warning" href="question-8.php" role="button">❮ Zurück</a>
+                        <input class="btn btn-warning" type="submit" value="Submit ❯"> 
                         <p class="spacer"></p>
                 
             </div>

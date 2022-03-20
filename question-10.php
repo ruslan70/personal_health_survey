@@ -38,7 +38,8 @@
                         <input type="hidden" name="lastPageID" value="question-10">
                         <p id="validation-warning" class="warning"></p>
                         <input type="reset" value="Zurücksetzen"><br><br>
-                        <button type="submit" class="btn btn-warning">Weiter</button> 
+                        <a class="btn btn-warning" href="question-9.php" role="button">❮ Zurück</a>
+                        <input class="btn btn-warning" type="submit" value="Submit ❯"> 
                         <p class="spacer"></p>
                 
             </div>

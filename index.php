@@ -23,8 +23,8 @@
                 </div>
              
                 <div class="container p-5  mt-4 col-8">
-                      <select  id="kurs" class="form-select" aria-label="Default select example">
-                        <option value="default" selected>Geschlecht</option>
+                      <select  id="kurs" class="form-select" aria-label="Default select example" required>
+                        <option value="default" selected>*Geschlecht</option>
                         <option value="Female">
                           Weiblich
                         </option>
@@ -36,7 +36,7 @@
                         </option>
                       </select><br>
 
-                      <label for="age">Age:</label>
+                      <label for="age">*Age:</label>
                       <input type="number" id="age" name="age" min="18" max="99" required><br><br>
 
                 </div>     
@@ -62,7 +62,7 @@
                  
                     <p class="spacer"></p>
  
-                    <label for="range-slider-changed" class="form-label">Auswählen:</label>
+                    <label for="range-slider-changed" class="form-label">*Auswählen:</label>
                     <input type="range" name="range-slider" class="form-range" min="1" max="5" step="1" id="range-slider" onchange="sliderChanged();">
                     <input type="hidden" name="lastPageID" value="index">
                     <input type="hidden" name="range-slider-changed" id="range-slider-changed">
@@ -79,10 +79,10 @@
                     <p class="spacer"></p>
                                        
                     
-                    <input type="hidden" name="lastPageID" value="question-5">
+                    <input type="hidden" name="lastPageID" value="index">
                     <p id="validation-warning" class="warning"></p>
                     <input type="reset" value="Zurücksetzen"><br><br>
-                    <button type="submit" class="btn btn-warning">Weiter</button> 
+                    <input class="btn btn-warning" type="submit" value="Submit ❯"> 
                     <p class="spacer"></p>
             </div>
                     

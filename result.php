@@ -3,7 +3,7 @@
     <head>
         
         <?php include "inc/head_styles.php" ?>
-        <title>question-2</title>
+        <title>result</title>
     </head>
     <body>
             
@@ -16,7 +16,7 @@
             
             <div class="container-fluid  bg-warning text-center text-dark">
                 <div class="container col-12">
-                    <h5>Frage 2</h5>
+                    <h5>Ergebnisse</h5>
                     <h3>Nimmst du Nahrungsergänzungsmittel?</h3>
                 </div>
 
@@ -30,10 +30,11 @@
 
                     
                 </div>
-                        <input type="hidden" name="lastPageID" value="question-2">
+                        <input type="hidden" name="lastPageID" value="result">
                         <p id="validation-warning" class="warning"></p>
-                        <input type="reset" value="Zurücksetzen"><br><br>
-                        <button type="submit" class="btn btn-warning">Weiter</button> 
+                        
+                        <a class="btn btn-warning" href="question-10.php" role="button">❮ Zurück</a>
+                        <a class="btn btn-warning" href="index.php" role="button">❮ ❮ Restart</a>
                         <p class="spacer"></p>
                 
             </div>
