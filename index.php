@@ -16,7 +16,7 @@
             ?>
              
               
-        <form action="question-2.php" onsubmit="return validateQuestion('range-slider')";>        
+        <form action="question-2.php" method="post" onsubmit="return validateQuestion('range-slider');">        
             <div class="container-fluid  bg-warning text-center text-dark">
                 <div class="container col-12">
                     <h3>Sehr geehrter Teilnehmer,<br>Vielen Dank, dass Sie sich die Zeit nehmen,<br> den folgenden Fragebogen auszufüllen.<h/3>
@@ -82,7 +82,7 @@
                     <input type="hidden" name="lastPageID" value="index">
                     <p id="validation-warning" class="warning"></p>
                     <input type="reset" value="Zurücksetzen"><br><br>
-                    <input class="btn btn-warning" type="submit" value="Submit ❯"> 
+                    <input class="btn btn-warning" type="submit" value="Weiter ❯"> 
                     <p class="spacer"></p>
             </div>
                     

@@ -48,7 +48,7 @@
                         <p id="validation-warning" class="warning"></p>
                         <input type="reset" value="Zurücksetzen"><br><br>
                         <a class="btn btn-warning" href="index.php" role="button">❮ Zurück</a>
-                        <input class="btn btn-warning" type="submit" value="Submit ❯">
+                        <input class="btn btn-warning" type="submit" value="Weiter ❯">
                         <p class="spacer"></p>
                 
             </div>

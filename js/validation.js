@@ -70,3 +70,27 @@ function setWarning(text) {
     let warningElement = document.getElementById("validation-warning");
     warningElement.innerText = text;
 }  
+
+// Validierung Checkboxen
+
+function validateCheckboxes() {
+    // sammeln alle werte der ausgewählten (checked) Checkboxen.
+    // (Bento-Box) CSS Selector !!!
+    let array =[];
+    let checkboxes = document.querySelectorAll('input[type=checkbox]:checked'); 
+
+    for (let i = 0; i < checkboxes.length; i++) {
+        array.push(checkboxes[i].value);   // value ist jewels ein String.
+    }
+
+    // Falls keine Checkbox gewält wurde sit array === [].
+    if (array.length === 0) {
+        setWarning("Bitte wähle zumindest eine Checkbox aus.");
+        return false; // Bei false wird der weitere Submit gestoppt.
+
+    }
+
+    // Checkbox wurde(n) gewählt: Setzte Liste in ein 'hidden' Inputfeld
+    // value muss ein String sein, also muss array in einen String konveriert werden.
+    document.getElementById("checkboxValues").value = array.toString();
+}

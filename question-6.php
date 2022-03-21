@@ -32,7 +32,7 @@
             <div class="container-fluid bg-primary text-center text-warning">
                 <div class="container pt-3 col-12">
                     <label for="inputPassword5" class="form-label">Anzahl Mahlzeiten pro Tag</label>
-                    <input type="number" name="number-text" id="number-text" class="form-control" min="0" max="15" style="max-width: 100px;">
+                    <input type="number" name="number-text" id="number-text" class="form-control" min="0" max="5" style="max-width: 100px;">
 
                     
                 </div>
@@ -40,7 +40,7 @@
                         <p id="validation-warning" class="warning"></p>
                         <input type="reset" value="Zurücksetzen"><br><br>
                         <a class="btn btn-warning" href="question-5.php" role="button">❮ Zurück</a>
-                        <input class="btn btn-warning" type="submit" value="Submit ❯"> 
+                        <input class="btn btn-warning" type="submit" value="Weiter ❯"> 
                         <p class="spacer"></p>
                 
             </div>
