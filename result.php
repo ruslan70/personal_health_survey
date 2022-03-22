@@ -18,11 +18,14 @@
             <div class="container-fluid  bg-warning text-center text-dark">
                 <div class="container pt-3 col-12">
                     <h5>Ergebnisse</h5>
+                   
                     <h3>Vielen Dahk fürs Mitmachen</h3>
                 </div>
 
                 <?php
-                    echo "<p class='final-feedback?'>" . "You are of exellent health" ."</p>";
+                   
+                    printResult();
+                    
                 ?>
                      <p class="spacer"></p>
             </div>
