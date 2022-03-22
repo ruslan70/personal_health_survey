@@ -5,9 +5,9 @@
                             <div class="nav justify-content-end" id="navbarNav">
                                 <form class="d-flexme-2">
                                 <a class="btn btn-outline-primary" href="index.php" role="button">Zurück</a>
-                                <input class="btn btn-outline-primary" type="submit" value="Weiter">
+                                <a class="btn btn-outline-primary" href="index.php" role="button">Restart</a>
                                 </form>
                             </div>
                         </div>
                     </nav>
-</div>  
+</div> 

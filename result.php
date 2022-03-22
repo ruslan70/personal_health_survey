@@ -8,7 +8,7 @@
     <body>
             
               
-            <?php include 'inc/menu.php';?>
+            <?php include 'inc/menu_result.php';?>
             <?php include 'inc/data-collector.php';?>
             <?php include 'inc/evaluate.php';?>
                 
