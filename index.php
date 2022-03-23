@@ -13,6 +13,7 @@
                 session_destroy();
                 
                 include 'inc/menu.php';
+               
             ?>
              
               
