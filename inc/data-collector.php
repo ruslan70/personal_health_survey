@@ -9,7 +9,7 @@ $lastPageID = $_POST["lastPageID"];
 $_SESSION[$lastPageID] = $_POST;
 
 // DEVONLY: Gib die aktuelle $_SESSION in die Seite aus.
-echo '<pre>';
-print_r($_SESSION);
-echo '</pre>';
+/*  echo '<pre>';
+    print_r($_SESSION);
+    echo '</pre>'; */
 ?>
