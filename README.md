@@ -27,4 +27,10 @@ mit $_POST, $_SESSION, assoziativen Arrays : Achtung: Zuerst prüfen, ob ein Sch
     zum Beispiel "2.5".
 
     Ich benötige nur ganze Zahlen, also brauche ich die Funktion intval(). // Hole die POST-Werte aus der $_SESSION.
+    
+    // Wichtig: Jedes VS Code Projekt mit PHP muss unter unterschiedlicher Port-Nummer laufen! Jeweils Einstellung in VS Code vornehmen unter “Settings > Workspace > Extensions > PHP Server config :Port”
+    
+    
+
+
   
